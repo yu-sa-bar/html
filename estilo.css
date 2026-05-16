@@ -1,0 +1,38 @@
+/* este es la hoja de diseño de .css*/
+body{ 
+    background-color:#6f1e68;
+}
+td.menuprincipal{
+    background-color: #e681c4;
+}
+td.contenido{
+    background-color: #98979b;
+}
+td.banner{
+    background-image:url(fotos/foto\ 7.png) ;
+}
+/*lineas para quitar la viñeta y poner el interlineado a 0*/
+.menuprincipal li{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+
+}
+/*linea para ubicar la lista en horizontal*/
+.menuprincipal li{
+    float: left;
+
+}
+/*linespara cear una caja para cada elemento indicamos el ancho y caja de decoracion del texto y ubicacion debntro de la caja por la ultimo color */
+.menuprincipal li a{
+    display: block;
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(241, 243, 245);
+}
+.menuprincipal li a:hover{
+    background-color: rgb(109, 112, 114);
+    color: black;
+}
